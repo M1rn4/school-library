@@ -1,10 +1,10 @@
 class Student < Person
-  def initialize(age, parent_permission=true, name="Unknown", classroom=nil)
+  def initialize(age, parent_permission = true, name = 'Unknown', classroom = nil)
     super(age, parent_permission, name)
     @classroom = classroom
   end
 
   def play_hooky
-    "¯\\(ツ)/¯"
+    '¯\\(ツ)/¯'
   end
 end
