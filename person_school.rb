@@ -1,10 +1,17 @@
-class PersonSchool
+class Nameable
+  def correct_name
+    @name
+  end
+end
+
+class PersonSchool < Nameable
   attr_accessor :name, :age
   attr_reader :id
 
   def initialize(age:, parent_permission: true, name: 'Unknown')
+    super(name: name)
     @id = generate_id
-    @name = name
+    @name = nam
     @age = age
     @parent_permission = parent_permission
   end
