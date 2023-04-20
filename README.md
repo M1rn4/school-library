@@ -1,4 +1,6 @@
 # school-library
+In this project, I will start building my school library app. In this initial step, you will implement the classes to represent students and teachers.
+
 ## Getting Started
 
 <a name="readme-top"></a>
@@ -39,12 +41,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-
-- **[Ruby]**
-- **[School library]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- **[Classes and objects in Ruby]**
+- **[Inheritance with Ruby]**
+- **[Encapsulation with Ruby]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,7 +63,9 @@
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"> Conect different classes</p>
+<p align="right"> Add more information</p>
+<p align="right"> Refactor my code</p>
 
 <!-- CONTRIBUTING -->
 
@@ -72,7 +73,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/M1rn4/school-library/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,9 +81,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give me a like
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,9 +89,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank [Microverse](https://www.microverse.org/es/inicio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
