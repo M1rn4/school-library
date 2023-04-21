@@ -2,6 +2,23 @@
 In this project, I will start building my school library app. In this initial step, you will implement the classes to represent students and teachers.
 
 ## Getting Started
+### Prerequisites
+In order to run this project you need: 
+
+- [Ruby](https://www.ruby-lang.org/en/) installed and running
+- You should be able to use [IRB](https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features)
+
+### Setup
+Clone this repository to your desired folder 
+```
+  git clone https://github.com/M1rn4/school-library/.git
+```
+  
+### Install
+Install the project dependences with:
+```
+bundle install
+```
 
 <a name="readme-top"></a>
 
