@@ -4,16 +4,17 @@ class Nameable
   end
 end
 
-class PersonSchool < Nameable
+class Person < Nameable
   attr_accessor :name, :age
-  attr_reader :id
+  attr_reader :id, :rentals
 
   def initialize(age:, parent_permission: true, name: 'Unknown')
     super(name: name)
     @id = generate_id
-    @name = nam
+    @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   def can_use_services?
