@@ -1,17 +1,29 @@
-class Book
-  attr_accessor :title, :author
-  attr_reader :id, :rentals
+require_relative './rental'
+require 'json'
 
-  def initialize(title:, author:)
-    @id = generate_id
+class Book
+  attr_accessor :title, :author, :rentals
+
+  def initialize(title, author)
     @title = title
     @author = author
     @rentals = []
   end
 
-  private
+  def add_rental(rental)
+    @rentals.push(rental) unless @rentals.include?(rental)
+    rental.book = self
+  end
 
-  def generate_id
-    rand(1..1000)
+  def to_json(*args)
+    {
+      JSON.create_id => self.class.name,
+      'title' => @title,
+      'author' => @author
+    }.to_json(*args)
+  end
+
+  def self.json_create(object)
+    new(object['title'], object['author'])
   end
 end
