@@ -1,10 +1,3 @@
-# school-library
-In this project, I will start building my school library app. In this initial step, you will implement the classes to represent students and teachers.
-
-## Getting Started
-
-<a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -31,11 +24,13 @@ In this project, I will start building my school library app. In this initial st
 
 # 📖 [School library] <a name="about-project"></a>
 
-**[School library]** is a code for create school library using Ruby
+**[School library]** In this project, I will start building my school library app. In this initial step, you will implement the classes to represent students and teachers.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+- Ruby
+- PostgreSQL
 
 <!-- Features -->
 
@@ -46,6 +41,25 @@ In this project, I will start building my school library app. In this initial st
 - **[Encapsulation with Ruby]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Getting Started
+### Prerequisites
+In order to run this project you need: 
+
+- [Ruby](https://www.ruby-lang.org/en/) installed and running
+- You should be able to use [IRB](https://en.wikipedia.org/wiki/Ruby_(programming_language)#Features)
+
+### Setup
+Clone this repository to your desired folder 
+```
+  git clone https://github.com/M1rn4/school-library/.git
+```
+  
+### Install
+Install the project dependences with:
+```
+bundle install
+```
 
 <!-- AUTHORS -->
 
@@ -63,9 +77,9 @@ In this project, I will start building my school library app. In this initial st
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<p align="right"> Conect different classes</p>
-<p align="right"> Add more information</p>
-<p align="right"> Refactor my code</p>
+<p align="left"> Conect different classes</p>
+<p align="left"> Add more information</p>
+<p align="left"> Refactor my code</p>
 
 <!-- CONTRIBUTING -->
 
